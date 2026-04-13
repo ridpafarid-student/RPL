@@ -1,34 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-@layer utilities {
-  /* Chrome, Safari and Opera */
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
-
-  .no-scrollbar {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
-}
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply font-[poppins];
+    @apply bg-stone-50 font-['Be_Vietnam_Pro'] text-slate-800 antialiased;
+  }
+
+  #root {
+    @apply min-h-screen;
   }
 }
 
 @layer components {
-  .navmenu-hidden {
-    @apply hidden absolute py-5 bg-black bg-opacity-20 backdrop-blur-sm shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:backdrop-blur-0;
+  .shell {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
   }
-  .navmenu-show {
-    @apply absolute py-5 bg-black bg-opacity-20 backdrop-blur-sm shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none lg:backdrop-blur-0;
+
+  .section-title {
+    @apply text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl;
   }
-  .card-container {
-    @apply w-60 max-h-max rounded-xl bg-cover bg-center transform transition-all hover:-translate-y-2 duration-300 shadow-lg bg-opacity-80 hover:shadow-2xl hover:scale-110 h-full overflow-hidden bg-no-repeat;
+
+  .section-copy {
+    @apply mt-3 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base;
+  }
+
+  .surface-card {
+    @apply rounded-3xl border border-stone-200 bg-white shadow-sm shadow-stone-200/60;
+  }
+
+  .pill {
+    @apply rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700;
   }
 }
