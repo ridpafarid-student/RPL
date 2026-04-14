@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
+import ImageCarousel from './ImageCarousel';
 import {
   addFavorite,
   isFavorite as checkFavorite,
@@ -8,8 +9,19 @@ import {
 
 function DestinationCard({ destination, onFavoriteChange }) {
   const [isFavorite, setIsFavorite] = useState(false);
-  const destinationImage =
-    destination.image ?? destination.photoUrl ?? destination.fotoUrl;
+
+  const images = useMemo(() => {
+    if (Array.isArray(destination.photos) && destination.photos.length > 0) {
+      return destination.photos;
+    }
+
+    return [
+      destination.image,
+      destination.photoUrl,
+      destination.fotoUrl,
+    ].filter(Boolean);
+  }, [destination]);
+
   const categories = Array.isArray(destination.category)
     ? destination.category
     : [destination.category].filter(Boolean);
@@ -33,25 +45,23 @@ function DestinationCard({ destination, onFavoriteChange }) {
   };
 
   return (
-    <article className="surface-card overflow-hidden transition hover:-translate-y-1 hover:shadow-lg">
+    <article className="surface-card overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-xl">
       <div className="relative">
-        {destinationImage ? (
-          <img
-            src={destinationImage}
-            alt={destination.name}
-            className="h-52 w-full object-cover"
-          />
-        ) : (
-          <div className="flex h-52 w-full items-end bg-gradient-to-br from-emerald-200 via-teal-100 to-cyan-100 p-5">
-            <span className="rounded-full bg-white/80 px-3 py-1 text-xs font-semibold text-slate-700 shadow-sm">
-              Foto belum tersedia
-            </span>
-          </div>
-        )}
+        <ImageCarousel
+          images={images}
+          alt={destination.name}
+          heightClass="h-56"
+          roundedClass="rounded-none"
+          autoPlay
+          autoPlayInterval={3200}
+          showDots
+          showCounter
+        />
+
         <button
           type="button"
           onClick={handleFavoriteClick}
-          className="absolute right-4 top-4 inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/90 text-slate-700 shadow-md transition hover:bg-white"
+          className="absolute right-4 top-4 z-20 inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/90 text-slate-700 shadow-md transition hover:scale-105 hover:bg-white"
           aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
         >
           <svg
@@ -80,6 +90,7 @@ function DestinationCard({ destination, onFavoriteChange }) {
               </span>
             ))}
           </div>
+
           <span className="text-sm font-semibold text-amber-500">
             {destination.rating.toFixed(1)} / 10
           </span>
@@ -88,6 +99,7 @@ function DestinationCard({ destination, onFavoriteChange }) {
         <h3 className="mt-4 text-xl font-bold tracking-tight text-slate-900">
           {destination.name}
         </h3>
+
         <p className="mt-2 line-clamp-3 text-sm leading-6 text-slate-600">
           {destination.description}
         </p>
@@ -112,6 +124,7 @@ function DestinationCard({ destination, onFavoriteChange }) {
               Rp{destination.price.toLocaleString('id-ID')}
             </p>
           </div>
+
           <Link
             to={`/destinations/${destination.id}`}
             className="rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-600"

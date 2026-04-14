@@ -1,7 +1,3 @@
-// destinations.js
-// 50 Destinasi Wisata Bogor Terpopuler - dikurasi manual
-// Sumber: OpenStreetMap (ODbL) + data publik
-
 export const categories = ['All', 'Nature', 'Family', 'Education', 'Theme Park', 'Water Park', 'Museum'];
 
 export const destinations = [
@@ -19,7 +15,11 @@ export const destinations = [
     "openingHours": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
     "openStatus": "open",
     "description": "Kebun raya tertua di Asia Tenggara dengan koleksi lebih dari 15.000 jenis tanaman di atas lahan 87 hektar di jantung Kota Bogor.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Bogor_Botanical_Gardens.jpg/320px-Bogor_Botanical_Gardens.jpg",
+    "photos": [
+      "https://www.citimhotel.com/wp-content/uploads/2021/02/Kebun-Raya-Bogor.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kebun_Raya_Bogor_18.jpg/1920px-Kebun_Raya_Bogor_18.jpg?_=20190504141746",
+      "https://upload.wikimedia.org/wikipedia/commons/3/32/Kebun_Raya_Bogor_08.jpg",
+    ],
     "website": "https://www.kebunraya.id",
     "phone": "\n(0251) 8322187"
   },
@@ -37,7 +37,11 @@ export const destinations = [
     "openingHours": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
     "openStatus": "open",
     "description": "Kebun binatang bertema safari di kawasan Puncak. Pengunjung bisa menyusuri area safari dari dalam kendaraan dan menyaksikan ratusan satwa liar.",
-    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Taman_Safari_Indonesia.jpg/320px-Taman_Safari_Indonesia.jpg",
+    "photos": [
+      "https://edensorhills.com/wp-content/uploads/2022/12/Taman-Safari-Indonesia-Bogor.jpg",
+      "https://cdn.antaranews.com/cache/1200x800/2025/03/26/1002252892.jpg.webp",
+      "https://foto.kontan.co.id/Jf-LuVULIf5eyr4tdQuQVsHNtYA=/smart/filters:format(webp)/2025/01/25/270921653.jpg",
+    ],
     "website": "https://www.tamansafari.com",
     "phone": "\n(0251) 8253177"
   },
@@ -55,7 +59,7 @@ export const destinations = [
     "openingHours": [],
     "openStatus": "open",
     "description": "Kawasan wisata pegunungan paling populer dari Jakarta dengan udara sejuk, perkebunan teh, dan pemandangan alam yang indah.",
-    "photoUrl": "https://static.vecteezy.com/system/resources/previews/023/646/811/large_2x/aerial-view-of-the-beautiful-scenery-on-top-of-hill-puncak-bogor-bogor-indonesia-july-6-2022-free-photo.JPG",
+    "photoUrl": "",
     "website": null,
     "phone": ""
   },
@@ -73,7 +77,7 @@ export const destinations = [
     "openingHours": ["Sabtu", "Minggu"],
     "openStatus": "open",
     "description": "Taman hiburan petualangan hutan terbesar di Sentul City dengan lebih dari 35 wahana seru untuk semua usia.",
-    "photoUrl": "",
+    "photoUrl": "https://cloud.jpnn.com/photo/arsip/normal/2023/06/15/jungleland-adventure-themepark-foto-tim-jungleland-we81.jpg",
     "website": "https://jungleland.co.id",
     "phone": "\n(021) 87952525"
   },
@@ -91,7 +95,7 @@ export const destinations = [
     "openingHours": ["Sabtu", "Minggu"],
     "openStatus": "open",
     "description": "Air terjun bertingkat yang indah di kawasan Tamansari, dikelilingi hutan tropis yang sejuk dan asri.",
-    "photoUrl": "",
+    "photoUrl": "https://static.promediateknologi.id/crop/0x0:0x0/1200x600/webp/photo/p1/912/2024/05/31/attelunjukraung-119900395.jpg",
     "website": null,
     "phone": "\n0858-8820-8799"
   },
@@ -109,7 +113,7 @@ export const destinations = [
     "openingHours": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
     "openStatus": "open",
     "description": "Kebun raya di lereng Gunung Gede-Pangrango dengan koleksi tanaman pegunungan dan suasana yang sangat sejuk.",
-    "photoUrl": "",
+    "photoUrl": "/krb-cibodas.jpg",
     "website": "http://wisatacibodas.com/kebun-raya-cibodas/",
     "phone": "\n+62 263 511 385"
   },
@@ -181,7 +185,7 @@ export const destinations = [
     "openingHours": ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
     "openStatus": "open",
     "description": "Danau indah di kawasan Puncak yang airnya berubah warna tergantung sudut pandang dan cuaca, dikelilingi hutan pinus yang rimbun.",
-    "photoUrl": "",
+    "photoUrl": "/telaga-warna.jpg",
     "website": null,
     "phone": ""
   },
