@@ -55,7 +55,7 @@ export const destinations = [
     "openingHours": [],
     "openStatus": "open",
     "description": "Kawasan wisata pegunungan paling populer dari Jakarta dengan udara sejuk, perkebunan teh, dan pemandangan alam yang indah.",
-    "photoUrl": "",
+    "photoUrl": "https://static.vecteezy.com/system/resources/previews/023/646/811/large_2x/aerial-view-of-the-beautiful-scenery-on-top-of-hill-puncak-bogor-bogor-indonesia-july-6-2022-free-photo.JPG",
     "website": null,
     "phone": ""
   },
