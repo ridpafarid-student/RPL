@@ -12,7 +12,6 @@ import {
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { destinations } from '@/data/destinations';
-import { getTopRecommendations } from '@/utils/scoring';
 import ScrollReveal from './ui/ScrollReveal';
 
 /* ─── Icon mapping by primary category ──────────────────── */
@@ -29,15 +28,18 @@ const EASE_OUT_EXPO = [0.16, 1, 0.3, 1] as const;
 const TRANSITION_MS = 700;
 
 export default function RecommendationSection() {
-  const topDestinations = useMemo(
-    () =>
-      getTopRecommendations(
-        destinations,
-        { category: 'Nature', budget: 'all', preferredTags: ['alam', 'sejuk', 'foto'] },
-        5,
-      ),
-    [],
-  );
+  const topDestinations = useMemo(() => {
+    const curatedIds = [
+      'halimun-salak',
+      'curug-cikuluwung',
+      'taman-bunga-nusantara',
+      'curug-bidadari-sentul',
+      'cimory-dairyland-megamendung',
+    ];
+    return curatedIds
+      .map(id => destinations.find(d => d.id === id))
+      .filter((d): d is typeof destinations[number] => d !== undefined);
+  }, []);
 
   const [activeIndex, setActiveIndex] = useState(0);
   const [entered, setEntered] = useState(false);
