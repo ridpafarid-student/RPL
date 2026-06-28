@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-forest-600/30 to-transparent" />
 
       <div className="shell py-16">
-        <div className="grid gap-12 lg:grid-cols-[1.3fr_0.7fr_1fr]">
+        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-[2fr_1fr]">
           {/* Brand Column */}
           <div className="max-w-md">
             <p className="font-display text-2xl font-bold text-forest-50">
@@ -46,25 +46,6 @@ export default function Footer() {
                   {item.label}
                 </Link>
               ))}
-            </div>
-          </div>
-
-          {/* CTA Card */}
-          <div className="glass-card p-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-forest-500">
-              Mulai Menjelajah
-            </p>
-            <p className="mt-4 text-sm leading-7 text-forest-400/80">
-              Lihat daftar destinasi lengkap atau gunakan fitur rekomendasi
-              cerdas untuk menemukan tempat yang paling cocok untukmu.
-            </p>
-            <div className="mt-6 flex flex-wrap gap-3">
-              <Link to="/destinations" className="btn-primary text-xs px-5 py-2.5">
-                Lihat Destinasi
-              </Link>
-              <Link to="/recommendations" className="btn-secondary text-xs px-5 py-2.5">
-                Cari Rekomendasi
-              </Link>
             </div>
           </div>
         </div>
