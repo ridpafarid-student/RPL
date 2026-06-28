@@ -218,8 +218,7 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="hero-animate mt-4 max-w-xl text-center text-base md:text-lg leading-relaxed text-forest-300/80">
-            Temukan destinasi wisata terbaik di Bogor — dari kebun raya yang legendaris
-            hingga air terjun tersembunyi di kaki gunung.
+            Temukan destinasi wisata terbaik di Bogor. Dari kebun raya legendaris hingga air terjun tersembunyi di kaki gunung.
           </p>
 
           {/* CTA Buttons */}

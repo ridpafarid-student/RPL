@@ -26,7 +26,7 @@ export default function Navbar() {
     async function fetchWeather() {
       try {
         const res = await fetch(
-          'https://api.open-meteo.com/v1/forecast?latitude=-6.5976&longitude=106.7973&current=temperature_2m,weather_code'
+          'https://api.open-meteo.com/v1/forecast?latitude=-6.601366133698881&longitude=106.80507887982482&current=temperature_2m,weather_code'
         );
         if (!res.ok) return;
         const data = await res.json();
@@ -90,14 +90,14 @@ export default function Navbar() {
             <WeatherIcon className={`h-3.5 w-3.5 ${iconColor} animate-pulse`} />
             <span className="font-mono text-xs sm:text-sm font-bold text-forest-100">{displayTemp}</span>
             <div className="h-3 w-px bg-forest-800 hidden sm:block" />
-            
+
             {/* Desktop live label */}
             <div className="hidden sm:flex items-center gap-1.5">
               <span className="relative flex h-1.5 w-1.5">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500"></span>
               </span>
-              <span className="text-[9px] font-bold uppercase tracking-wider text-forest-400">Bogor</span>
+              <span className="text-[9px] font-bold uppercase tracking-wider text-forest-50">Bogor</span>
             </div>
 
             {/* Mobile simplified live pulsing dot */}

@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState, useRef } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import DestinationCard from '@/components/DestinationCard';
 import FilterBar from '@/components/FilterBar';
 import SearchBar from '@/components/SearchBar';
@@ -8,6 +9,21 @@ import { categories, destinations } from '@/data/destinations';
 import { usePageMeta } from '@/lib/use-page-meta';
 
 const INITIAL_COUNT = 8;
+
+const KOTA_DESTINATION_IDS = new Set([
+  'kebun-raya-bogor',
+  'museum-zoologi-bogor',
+  'alun-alun-kota-bogor',
+  'museum-kepresidenan-balai-kirti',
+  'museum-perjuangan-bogor',
+  'museum-peta-cibuluh',
+  'museum-tanah-dan-pertanian',
+  'museum-pembela-tanah-air',
+  'lawang-suryakencana-pecinan',
+  'kuntum-farmfield-tajur',
+  'de-voyage-bogor',
+  'the-jungle-adventure-water-park'
+]);
 
 const sortOptions = [
   { value: 'default', label: 'Urutan default' },
@@ -19,6 +35,9 @@ const sortOptions = [
 
 export default function Destinations() {
   usePageMeta('Eksplorasi Destinasi', 'Jelajahi daftar lengkap destinasi wisata Bogor dalam tampilan peta interaktif.');
+
+  const [searchParams, setSearchParams] = useSearchParams();
+  const wilayahQuery = searchParams.get('wilayah'); // 'kota' | 'kabupaten'
 
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('All');
@@ -46,15 +65,28 @@ export default function Destinations() {
     };
   }, []);
 
+  const clearWilayahFilter = () => {
+    const newParams = new URLSearchParams(searchParams);
+    newParams.delete('wilayah');
+    setSearchParams(newParams);
+  };
 
-
-  useEffect(() => { setShowAll(false); }, [category, query, sortBy]);
+  useEffect(() => { setShowAll(false); }, [category, query, sortBy, wilayahQuery]);
 
   const filtered = useMemo(() => {
     const result = destinations.filter((d) => {
       const nameMatch = d.name.toLowerCase().includes(query.trim().toLowerCase());
       const catMatch = category === 'All' || d.category.includes(category);
-      return nameMatch && catMatch;
+      
+      // Filter wilayah (Kota vs Kabupaten)
+      let wilayahMatch = true;
+      if (wilayahQuery === 'kota') {
+        wilayahMatch = KOTA_DESTINATION_IDS.has(d.id);
+      } else if (wilayahQuery === 'kabupaten') {
+        wilayahMatch = !KOTA_DESTINATION_IDS.has(d.id);
+      }
+      
+      return nameMatch && catMatch && wilayahMatch;
     });
 
     if (sortBy === 'rating-desc') return [...result].sort((a, b) => b.rating - a.rating);
@@ -62,7 +94,7 @@ export default function Destinations() {
     if (sortBy === 'price-desc') return [...result].sort((a, b) => b.price - a.price);
     if (sortBy === 'name-asc') return [...result].sort((a, b) => a.name.localeCompare(b.name, 'id'));
     return result;
-  }, [category, query, sortBy]);
+  }, [category, query, sortBy, wilayahQuery]);
 
   const visible = showAll ? filtered : filtered.slice(0, INITIAL_COUNT);
   const hasMore = filtered.length > INITIAL_COUNT;
@@ -94,6 +126,27 @@ export default function Destinations() {
           />
           <FilterBar categories={categories} category={category} onCategoryChange={setCategory} />
         </div>
+
+        {/* Active Wilayah Filter Pill */}
+        {wilayahQuery && (
+          <div className="mt-4 flex flex-wrap items-center gap-3">
+            <span className="text-xs font-semibold text-forest-400">Filter Wilayah:</span>
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-forest-950/60 border border-forest-600/30 px-3.5 py-1 text-xs font-bold text-forest-100 shadow-sm">
+              <span>{wilayahQuery === 'kota' ? 'Kota Bogor' : 'Kabupaten Bogor'}</span>
+              <button
+                type="button"
+                onClick={clearWilayahFilter}
+                className="ml-1 rounded-full p-0.5 text-forest-400 hover:bg-forest-800 hover:text-forest-100 transition-colors"
+                title="Hapus filter wilayah"
+                aria-label="Hapus filter wilayah"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-3 w-3">
+                  <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
+                </svg>
+              </button>
+            </span>
+          </div>
+        )}
 
         {/* Results info + sort */}
         <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between border-b border-forest-700/20 pb-4">
@@ -152,7 +205,7 @@ export default function Destinations() {
               Coba ganti kata kunci atau hapus filter Anda.
             </p>
             <button
-              onClick={() => { setQuery(''); setCategory('All'); setSortBy('default'); }}
+              onClick={() => { setQuery(''); setCategory('All'); setSortBy('default'); clearWilayahFilter(); }}
               className="btn-primary mt-6"
             >
               Reset Filter
