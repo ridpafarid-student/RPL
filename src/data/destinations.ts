@@ -6,7 +6,7 @@ export const destinations: Destination[] = [
   {
     "id": "kebun-raya-bogor",
     "name": "Kebun Raya Bogor",
-    "mapsUrl": "https://www.google.com/maps/place/Kebun+Raya+Bogor/@-6.5992,106.7981,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Kebun+Raya+Bogor/@-6.5976289,106.7995698,17z",
     "category": [
       "Nature",
       "Education"
@@ -22,8 +22,8 @@ export const destinations: Destination[] = [
     "reviewCount": 1200,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.5992,
-      "lng": 106.7981
+      "lat": -6.5976289,
+      "lng": 106.7995698
     },
     "openingHours": [
       "Senin",
@@ -37,7 +37,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Kebun raya tertua di Asia Tenggara dengan koleksi lebih dari 15.000 jenis tanaman di jantung Kota Bogor.",
     "photos": [
-      "https://www.citimhotel.com/wp-content/uploads/2021/02/Kebun-Raya-Bogor.jpg"
+      "/images/destinations/kebun-raya-bogor.webp"
     ],
     "website": null,
     "phone": ""
@@ -45,7 +45,7 @@ export const destinations: Destination[] = [
   {
     "id": "taman-safari-indonesia",
     "name": "Taman Safari Indonesia",
-    "mapsUrl": "https://www.google.com/maps/place/Taman+Safari+Indonesia/@-6.7226,106.9734,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Taman+Safari+Indonesia/@-6.7206491999999995,106.9508355,17z",
     "category": [
       "Nature",
       "Family"
@@ -63,8 +63,8 @@ export const destinations: Destination[] = [
     "reviewCount": 1632,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.7226,
-      "lng": 106.9734
+      "lat": -6.7206491999999995,
+      "lng": 106.9508355
     },
     "openingHours": [
       "Senin",
@@ -78,7 +78,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Kebun binatang bertema safari di Puncak di mana pengunjung bisa menyusuri area dengan mobil sendiri.",
     "photos": [
-      "https://edensorhills.com/wp-content/uploads/2022/12/Taman-Safari-Indonesia-Bogor.jpg"
+      "/images/destinations/taman-safari-indonesia.webp"
     ],
     "website": null,
     "phone": ""
@@ -86,7 +86,7 @@ export const destinations: Destination[] = [
   {
     "id": "kawasan-puncak-bogor",
     "name": "Kawasan Puncak Bogor",
-    "mapsUrl": "https://www.google.com/maps/place/Kawasan+Puncak+Bogor/@-6.7028,106.999,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Kawasan+Puncak+Bogor/@-6.705830199999999,106.99449609999999,17z",
     "category": [
       "Nature"
     ],
@@ -101,8 +101,8 @@ export const destinations: Destination[] = [
     "reviewCount": 2064,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.7028,
-      "lng": 106.999
+      "lat": -6.705830199999999,
+      "lng": 106.99449609999999
     },
     "openingHours": [
       "Senin",
@@ -116,7 +116,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Kawasan pegunungan dengan kebun teh hijau yang luas, udara sejuk, dan pemandangan alam memukau.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/kawasan-puncak-bogor.webp"
     ],
     "website": null,
     "phone": ""
@@ -124,7 +124,7 @@ export const destinations: Destination[] = [
   {
     "id": "jungleland-adventure-theme-park",
     "name": "JungleLand Adventure Theme Park",
-    "mapsUrl": "https://www.google.com/maps/place/JungleLand+Adventure+Theme+Park/@-6.5799,106.8936,17z",
+    "mapsUrl": "https://www.google.com/maps/place/JungleLand+Adventure+Theme+Park/@-6.5722214,106.8947026,17z",
     "category": [
       "Theme Park",
       "Family"
@@ -140,8 +140,8 @@ export const destinations: Destination[] = [
     "reviewCount": 2496,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.5799,
-      "lng": 106.8936
+      "lat": -6.5722214,
+      "lng": 106.8947026
     },
     "openingHours": [
       "Senin",
@@ -155,7 +155,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Taman hiburan petualangan keluarga terbesar di Sentul City dengan lebih dari 35 wahana seru.",
     "photos": [
-      "https://cloud.jpnn.com/photo/arsip/normal/2023/06/15/jungleland-adventure-themepark-foto-tim-jungleland-we81.jpg"
+      "/images/destinations/jungleland-adventure-theme-park.webp"
     ],
     "website": null,
     "phone": ""
@@ -163,7 +163,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-nangka",
     "name": "Curug Nangka",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Nangka/@-6.6691,106.7264,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Nangka/@-6.6690656,106.7264075,17z",
     "category": [
       "Nature"
     ],
@@ -178,8 +178,8 @@ export const destinations: Destination[] = [
     "reviewCount": 2928,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6691,
-      "lng": 106.7264
+      "lat": -6.6690656,
+      "lng": 106.7264075
     },
     "openingHours": [
       "Senin",
@@ -193,7 +193,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Air terjun bertingkat yang indah di kawasan kaki Gunung Salak dengan suasana hutan tropis sejuk.",
     "photos": [
-      "https://static.promediateknologi.id/crop/0x0:0x0/1200x600/webp/photo/p1/912/2024/05/31/attelunjukraung-119900395.jpg"
+      "/images/destinations/curug-nangka.webp"
     ],
     "website": null,
     "phone": ""
@@ -201,7 +201,7 @@ export const destinations: Destination[] = [
   {
     "id": "kebun-raya-cibodas",
     "name": "Kebun Raya Cibodas",
-    "mapsUrl": "https://www.google.com/maps/place/Kebun+Raya+Cibodas/@-6.7413,107.0054,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Kebun+Raya+Cibodas/@-6.7412791,107.00760849999999,17z",
     "category": [
       "Nature",
       "Education"
@@ -213,12 +213,12 @@ export const destinations: Destination[] = [
       "sejuk",
       "bogor"
     ],
-    "rating": 8.0,
+    "rating": 8,
     "reviewCount": 3360,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.7413,
-      "lng": 107.0054
+      "lat": -6.7412791,
+      "lng": 107.00760849999999
     },
     "openingHours": [
       "Senin",
@@ -232,7 +232,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Kebun raya lereng gunung dengan taman sakura, kebun lumut, dan pepohonan pinus raksasa.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/kebun-raya-cibodas.webp"
     ],
     "website": null,
     "phone": ""
@@ -240,7 +240,7 @@ export const destinations: Destination[] = [
   {
     "id": "taman-wisata-matahari",
     "name": "Taman Wisata Matahari",
-    "mapsUrl": "https://www.google.com/maps/place/Taman+Wisata+Matahari/@-6.6588,106.9153,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Taman+Wisata+Matahari/@-6.661016399999999,106.9170793,17z",
     "category": [
       "Nature",
       "Family"
@@ -258,8 +258,8 @@ export const destinations: Destination[] = [
     "reviewCount": 3792,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6588,
-      "lng": 106.9153
+      "lat": -6.661016399999999,
+      "lng": 106.9170793
     },
     "openingHours": [
       "Senin",
@@ -273,7 +273,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Taman rekreasi keluarga di Puncak dengan danau, outbound, dan wahana petualangan air.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/taman-wisata-matahari.webp"
     ],
     "website": null,
     "phone": ""
@@ -281,7 +281,7 @@ export const destinations: Destination[] = [
   {
     "id": "museum-zoologi-bogor",
     "name": "Museum Zoologi Bogor",
-    "mapsUrl": "https://www.google.com/maps/place/Museum+Zoologi+Bogor/@-6.6035,106.7969,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Museum+Zoologi+Bogor/@-6.6036133999999995,106.79693669999999,17z",
     "category": [
       "Museum",
       "Education"
@@ -296,8 +296,8 @@ export const destinations: Destination[] = [
     "reviewCount": 4224,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6035,
-      "lng": 106.7969
+      "lat": -6.6036133999999995,
+      "lng": 106.79693669999999
     },
     "openingHours": [
       "Senin",
@@ -311,7 +311,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Museum fauna tertua di Indonesia yang menyimpan koleksi kerangka paus biru raksasa.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/museum-zoologi-bogor.webp"
     ],
     "website": null,
     "phone": ""
@@ -319,7 +319,7 @@ export const destinations: Destination[] = [
   {
     "id": "wisata-agro-gunung-mas",
     "name": "Wisata Agro Gunung Mas",
-    "mapsUrl": "https://www.google.com/maps/place/Wisata+Agro+Gunung+Mas/@-6.7034,106.9691,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Wisata+Agro+Gunung+Mas/@-6.7029008,106.9716174,17z",
     "category": [
       "Nature"
     ],
@@ -334,8 +334,8 @@ export const destinations: Destination[] = [
     "reviewCount": 4656,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.7034,
-      "lng": 106.9691
+      "lat": -6.7029008,
+      "lng": 106.9716174
     },
     "openingHours": [
       "Senin",
@@ -349,7 +349,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Perkebunan teh hijau luas di Puncak yang menawarkan paket tea walk berkuda dan flying fox.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/wisata-agro-gunung-mas.webp"
     ],
     "website": null,
     "phone": ""
@@ -357,7 +357,7 @@ export const destinations: Destination[] = [
   {
     "id": "telaga-warna-puncak",
     "name": "Telaga Warna Puncak",
-    "mapsUrl": "https://www.google.com/maps/place/Telaga+Warna+Puncak/@-6.705,107.0225,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Telaga+Warna+Puncak/@-6.7018752,106.9955828,17z",
     "category": [
       "Nature"
     ],
@@ -372,8 +372,8 @@ export const destinations: Destination[] = [
     "reviewCount": 5088,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.705,
-      "lng": 107.0225
+      "lat": -6.7018752,
+      "lng": 106.9955828
     },
     "openingHours": [
       "Senin",
@@ -387,7 +387,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Danau tersembunyi yang warna airnya bisa berubah-ubah akibat pantulan vegetasi di sekitarnya.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/telaga-warna-puncak.webp"
     ],
     "website": null,
     "phone": ""
@@ -395,7 +395,7 @@ export const destinations: Destination[] = [
   {
     "id": "museum-kepresidenan-balai-kirti",
     "name": "Museum Kepresidenan Balai Kirti",
-    "mapsUrl": "https://www.google.com/maps/place/Museum+Kepresidenan+Balai+Kirti/@-6.5981,106.7956,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Museum+Kepresidenan+Balai+Kirti/@-6.598368799999999,106.7944239,17z",
     "category": [
       "Museum",
       "Education"
@@ -410,8 +410,8 @@ export const destinations: Destination[] = [
     "reviewCount": 5520,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.5981,
-      "lng": 106.7956
+      "lat": -6.598368799999999,
+      "lng": 106.7944239
     },
     "openingHours": [
       "Senin",
@@ -425,7 +425,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Museum kepresidenan modern di kompleks Istana Bogor yang menyimpan sejarah kepemimpinan nasional.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/museum-kepresidenan-balai-kirti.webp"
     ],
     "website": null,
     "phone": ""
@@ -433,7 +433,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-cilember",
     "name": "Curug Cilember",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Cilember/@-6.6611,106.9466,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Cilember/@-6.6611293,106.94650229999999,17z",
     "category": [
       "Nature"
     ],
@@ -448,8 +448,8 @@ export const destinations: Destination[] = [
     "reviewCount": 5952,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6611,
-      "lng": 106.9466
+      "lat": -6.6611293,
+      "lng": 106.94650229999999
     },
     "openingHours": [
       "Senin",
@@ -463,7 +463,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Kawasan wisata tujuh tingkatan curug di Megamendung yang dilengkapi taman kupu-kupu.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-cilember.webp"
     ],
     "website": null,
     "phone": ""
@@ -471,7 +471,7 @@ export const destinations: Destination[] = [
   {
     "id": "sentul-nirwana",
     "name": "Sentul Nirwana",
-    "mapsUrl": "https://www.google.com/maps/place/Sentul+Nirwana/@-6.5816,106.8922,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Sentul+Nirwana/@-6.5815736,106.892206,17z",
     "category": [
       "Nature"
     ],
@@ -486,8 +486,8 @@ export const destinations: Destination[] = [
     "reviewCount": 6384,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.5816,
-      "lng": 106.8922
+      "lat": -6.5815736,
+      "lng": 106.892206
     },
     "openingHours": [
       "Senin",
@@ -501,7 +501,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Kawasan terpadu di bukit Sentul dengan jalur trekking pinus dan tempat kuliner sejuk.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/sentul-nirwana.webp"
     ],
     "website": null,
     "phone": ""
@@ -509,7 +509,7 @@ export const destinations: Destination[] = [
   {
     "id": "the-jungle-adventure-water-park",
     "name": "The Jungle Adventure Water Park",
-    "mapsUrl": "https://www.google.com/maps/place/The+Jungle+Adventure+Water+Park/@-6.6345,106.7953,17z",
+    "mapsUrl": "https://www.google.com/maps/place/The+Jungle+Adventure+Water+Park/@-6.6344794,106.7949215,17z",
     "category": [
       "Water Park",
       "Family"
@@ -525,8 +525,8 @@ export const destinations: Destination[] = [
     "reviewCount": 6816,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6345,
-      "lng": 106.7953
+      "lat": -6.6344794,
+      "lng": 106.7949215
     },
     "openingHours": [
       "Senin",
@@ -540,7 +540,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Waterpark tematik di kaki Gunung Salak dengan wahana kolam ombak dan seluncuran air cepat.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/the-jungle-adventure-water-park.webp"
     ],
     "website": null,
     "phone": ""
@@ -548,7 +548,7 @@ export const destinations: Destination[] = [
   {
     "id": "puncak-pass",
     "name": "Puncak Pass",
-    "mapsUrl": "https://www.google.com/maps/place/Puncak+Pass/@-6.7056,106.9943,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Puncak+Pass/@-6.7071996,106.9935139,17z",
     "category": [
       "Nature"
     ],
@@ -563,8 +563,8 @@ export const destinations: Destination[] = [
     "reviewCount": 7248,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.7056,
-      "lng": 106.9943
+      "lat": -6.7071996,
+      "lng": 106.9935139
     },
     "openingHours": [
       "Senin",
@@ -578,7 +578,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Titik tertinggi perbatasan Bogor-Cianjur dengan pemandangan lembah kebun teh yang indah.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/puncak-pass.webp"
     ],
     "website": null,
     "phone": ""
@@ -586,7 +586,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-leuwi-hejo",
     "name": "Curug Leuwi Hejo",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Leuwi+Hejo/@-6.6241,106.8928,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Leuwi+Hejo/@-6.5856791,106.9552058,17z",
     "category": [
       "Nature"
     ],
@@ -597,12 +597,12 @@ export const destinations: Destination[] = [
       "sejuk",
       "bogor"
     ],
-    "rating": 9.0,
+    "rating": 9,
     "reviewCount": 7680,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6241,
-      "lng": 106.8928
+      "lat": -6.5856791,
+      "lng": 106.9552058
     },
     "openingHours": [
       "Senin",
@@ -616,7 +616,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Kolam air terjun alami berwarna hijau toska yang jernih di Sentul, populer untuk berenang.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-leuwi-hejo.webp"
     ],
     "website": null,
     "phone": ""
@@ -624,7 +624,7 @@ export const destinations: Destination[] = [
   {
     "id": "cimory-dairyland-megamendung",
     "name": "Cimory Dairyland Megamendung",
-    "mapsUrl": "https://www.google.com/maps/place/Cimory+Dairyland+Megamendung/@-6.6501,106.9026,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Cimory+Dairyland+Megamendung/@-6.6500882,106.9027234,17z",
     "category": [
       "Family",
       "Nature"
@@ -642,8 +642,8 @@ export const destinations: Destination[] = [
     "reviewCount": 8112,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6501,
-      "lng": 106.9026
+      "lat": -6.6500882,
+      "lng": 106.9027234
     },
     "openingHours": [
       "Senin",
@@ -657,7 +657,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Tempat rekreasi keluarga edukatif dengan interaksi satwa ternak dan kebun susu segar.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/cimory-dairyland-megamendung.webp"
     ],
     "website": null,
     "phone": ""
@@ -665,7 +665,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-bidadari-sentul",
     "name": "Curug Bidadari Sentul",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Bidadari+Sentul/@-6.5888,106.8977,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Bidadari+Sentul/@-6.6140213,106.90840019999999,17z",
     "category": [
       "Nature"
     ],
@@ -680,8 +680,8 @@ export const destinations: Destination[] = [
     "reviewCount": 8544,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.5888,
-      "lng": 106.8977
+      "lat": -6.6140213,
+      "lng": 106.90840019999999
     },
     "openingHours": [
       "Senin",
@@ -695,7 +695,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Air terjun alami dengan kolam buatan berpasir putih layaknya pantai di kawasan Sentul.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-bidadari-sentul.webp"
     ],
     "website": null,
     "phone": ""
@@ -703,7 +703,7 @@ export const destinations: Destination[] = [
   {
     "id": "taman-bunga-nusantara",
     "name": "Taman Bunga Nusantara",
-    "mapsUrl": "https://www.google.com/maps/place/Taman+Bunga+Nusantara/@-6.7277,107.0794,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Taman+Bunga+Nusantara/@-6.7276674,107.07940339999999,17z",
     "category": [
       "Nature",
       "Family"
@@ -721,8 +721,8 @@ export const destinations: Destination[] = [
     "reviewCount": 8976,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.7277,
-      "lng": 107.0794
+      "lat": -6.7276674,
+      "lng": 107.07940339999999
     },
     "openingHours": [
       "Senin",
@@ -736,7 +736,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Taman bunga tematik raksasa yang menyajikan labirin bambu dan kebun bunga Prancis.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/taman-bunga-nusantara.webp"
     ],
     "website": null,
     "phone": ""
@@ -744,7 +744,7 @@ export const destinations: Destination[] = [
   {
     "id": "museum-perjuangan-bogor",
     "name": "Museum Perjuangan Bogor",
-    "mapsUrl": "https://www.google.com/maps/place/Museum+Perjuangan+Bogor/@-6.593,106.7881,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Museum+Perjuangan+Bogor/@-6.5930813,106.78799479999999,17z",
     "category": [
       "Museum",
       "Education"
@@ -759,8 +759,8 @@ export const destinations: Destination[] = [
     "reviewCount": 9408,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.593,
-      "lng": 106.7881
+      "lat": -6.5930813,
+      "lng": 106.78799479999999
     },
     "openingHours": [
       "Senin",
@@ -774,7 +774,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Museum sejarah perjuangan bersenjata rakyat Bogor melawan kolonialisme.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/museum-perjuangan-bogor.webp"
     ],
     "website": null,
     "phone": ""
@@ -782,7 +782,7 @@ export const destinations: Destination[] = [
   {
     "id": "de-voyage-bogor",
     "name": "De Voyage Bogor",
-    "mapsUrl": "https://www.google.com/maps/place/De+Voyage+Bogor/@-6.6383,106.795,17z",
+    "mapsUrl": "https://www.google.com/maps/place/De+Voyage+Bogor/@-6.6370888,106.7953617,17z",
     "category": [
       "Family",
       "Theme Park"
@@ -798,8 +798,8 @@ export const destinations: Destination[] = [
     "reviewCount": 9840,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6383,
-      "lng": 106.795
+      "lat": -6.6370888,
+      "lng": 106.7953617
     },
     "openingHours": [
       "Senin",
@@ -813,7 +813,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Destinasi foto bertema miniatur perkampungan Eropa lengkap dengan kano air.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/de-voyage-bogor.webp"
     ],
     "website": null,
     "phone": ""
@@ -821,7 +821,7 @@ export const destinations: Destination[] = [
   {
     "id": "mekarsari-amazing-tourism-park",
     "name": "Mekarsari Amazing Tourism Park",
-    "mapsUrl": "https://www.google.com/maps/place/Mekarsari+Amazing+Tourism+Park/@-6.4116,106.988,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Mekarsari+Amazing+Tourism+Park/@-6.4146557,106.9865573,17z",
     "category": [
       "Nature",
       "Family"
@@ -839,8 +839,8 @@ export const destinations: Destination[] = [
     "reviewCount": 10272,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.4116,
-      "lng": 106.988
+      "lat": -6.4146557,
+      "lng": 106.9865573
     },
     "openingHours": [
       "Senin",
@@ -854,7 +854,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Kebun koleksi hortikultura buah tropis terbesar di dunia yang menyajikan wisata petik langsung.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/mekarsari-amazing-tourism-park.webp"
     ],
     "website": null,
     "phone": ""
@@ -862,7 +862,7 @@ export const destinations: Destination[] = [
   {
     "id": "gunung-pancar-sentul",
     "name": "Gunung Pancar Sentul",
-    "mapsUrl": "https://www.google.com/maps/place/Gunung+Pancar+Sentul/@-6.5917,106.9119,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Gunung+Pancar+Sentul/@-6.5807837,106.90389569999999,17z",
     "category": [
       "Nature"
     ],
@@ -877,8 +877,8 @@ export const destinations: Destination[] = [
     "reviewCount": 10704,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.5917,
-      "lng": 106.9119
+      "lat": -6.5807837,
+      "lng": 106.90389569999999
     },
     "openingHours": [
       "Senin",
@@ -892,7 +892,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Hutan pinus asri di perbukitan Sentul yang populer untuk kamping, bersepeda, dan pemandian air panas.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/gunung-pancar-sentul.webp"
     ],
     "website": null,
     "phone": ""
@@ -900,7 +900,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-cipamingkis",
     "name": "Curug Cipamingkis",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Cipamingkis/@-6.6404,107.0114,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Cipamingkis/@-6.6401181,107.01136419999999,17z",
     "category": [
       "Nature"
     ],
@@ -915,8 +915,8 @@ export const destinations: Destination[] = [
     "reviewCount": 11136,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6404,
-      "lng": 107.0114
+      "lat": -6.6401181,
+      "lng": 107.01136419999999
     },
     "openingHours": [
       "Senin",
@@ -930,7 +930,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Air terjun pegunungan dengan gardu pandang foto kekinian di atas tebing.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-cipamingkis.webp"
     ],
     "website": null,
     "phone": ""
@@ -938,7 +938,7 @@ export const destinations: Destination[] = [
   {
     "id": "kebun-wisata-pasir-mukti",
     "name": "Kebun Wisata Pasir Mukti",
-    "mapsUrl": "https://www.google.com/maps/place/Kebun+Wisata+Pasir+Mukti/@-6.5115,106.9033,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Kebun+Wisata+Pasir+Mukti/@-6.511437,106.9045874,17z",
     "category": [
       "Family",
       "Nature"
@@ -956,8 +956,8 @@ export const destinations: Destination[] = [
     "reviewCount": 11568,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.5115,
-      "lng": 106.9033
+      "lat": -6.511437,
+      "lng": 106.9045874
     },
     "openingHours": [
       "Senin",
@@ -971,7 +971,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Kebun wisata agro edukatif bagi anak-anak untuk mengenal bercocok tanam padi dan membajak.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/kebun-wisata-pasir-mukti.webp"
     ],
     "website": null,
     "phone": ""
@@ -979,7 +979,7 @@ export const destinations: Destination[] = [
   {
     "id": "istana-cipanas",
     "name": "Istana Cipanas",
-    "mapsUrl": "https://www.google.com/maps/place/Istana+Cipanas/@-6.7336,107.0412,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Istana+Cipanas/@-6.7335652,107.0410261,17z",
     "category": [
       "Education"
     ],
@@ -991,8 +991,8 @@ export const destinations: Destination[] = [
     "reviewCount": 12000,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.7336,
-      "lng": 107.0412
+      "lat": -6.7335652,
+      "lng": 107.0410261
     },
     "openingHours": [
       "Senin",
@@ -1006,7 +1006,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Istana kepresidenan bersejarah peninggalan Belanda yang berhawa dingin.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/istana-cipanas.webp"
     ],
     "website": null,
     "phone": ""
@@ -1014,7 +1014,7 @@ export const destinations: Destination[] = [
   {
     "id": "lido-lakes",
     "name": "Lido Lakes",
-    "mapsUrl": "https://www.google.com/maps/place/Lido+Lakes/@-6.7422,106.8083,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Lido+Lakes/@-6.7451088,106.80761129999999,17z",
     "category": [
       "Nature"
     ],
@@ -1025,12 +1025,12 @@ export const destinations: Destination[] = [
       "sejuk",
       "bogor"
     ],
-    "rating": 8.0,
+    "rating": 8,
     "reviewCount": 12432,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.7422,
-      "lng": 106.8083
+      "lat": -6.7451088,
+      "lng": 106.80761129999999
     },
     "openingHours": [
       "Senin",
@@ -1044,7 +1044,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Danau alam di Cigombong dengan latar pemandangan Gunung Gede-Pangrango dan Salak.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/lido-lakes.webp"
     ],
     "website": null,
     "phone": ""
@@ -1052,7 +1052,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-ciherang",
     "name": "Curug Ciherang",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Ciherang/@-6.6371,106.999,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Ciherang/@-6.636767799999999,106.9984691,17z",
     "category": [
       "Nature"
     ],
@@ -1067,8 +1067,8 @@ export const destinations: Destination[] = [
     "reviewCount": 12864,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6371,
-      "lng": 106.999
+      "lat": -6.636767799999999,
+      "lng": 106.9984691
     },
     "openingHours": [
       "Senin",
@@ -1082,7 +1082,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Air terjun dengan jembatan gantung kayu raksasa yang berada di lereng bukit hijau.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-ciherang.webp"
     ],
     "website": null,
     "phone": ""
@@ -1090,7 +1090,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-luhur-tenjolaya",
     "name": "Curug Luhur Tenjolaya",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Luhur+Tenjolaya/@-6.6908,106.7099,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Luhur+Tenjolaya/@-6.660011,106.7058569,17z",
     "category": [
       "Nature"
     ],
@@ -1105,8 +1105,8 @@ export const destinations: Destination[] = [
     "reviewCount": 13296,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6908,
-      "lng": 106.7099
+      "lat": -6.660011,
+      "lng": 106.7058569
     },
     "openingHours": [
       "Senin",
@@ -1120,7 +1120,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Air terjun megah setinggi 62 meter di kaki Gunung Salak dengan kolam pemandian buatan terpadu untuk bermain air.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-luhur-tenjolaya.webp"
     ],
     "website": null,
     "phone": ""
@@ -1128,7 +1128,7 @@ export const destinations: Destination[] = [
   {
     "id": "taman-budaya-sentul-city",
     "name": "Taman Budaya Sentul City",
-    "mapsUrl": "https://www.google.com/maps/place/Taman+Budaya+Sentul+City/@-6.5842,106.8828,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Taman+Budaya+Sentul+City/@-6.5843706,106.8835962,17z",
     "category": [
       "Education",
       "Nature"
@@ -1144,8 +1144,8 @@ export const destinations: Destination[] = [
     "reviewCount": 13728,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.5842,
-      "lng": 106.8828
+      "lat": -6.5843706,
+      "lng": 106.8835962
     },
     "openingHours": [
       "Senin",
@@ -1159,7 +1159,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Pusat petualangan luar ruangan terbesar untuk outbound keluarga dan gathering korporat.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/taman-budaya-sentul-city.webp"
     ],
     "website": null,
     "phone": ""
@@ -1167,7 +1167,7 @@ export const destinations: Destination[] = [
   {
     "id": "riung-gunung-puncak",
     "name": "Riung Gunung Puncak",
-    "mapsUrl": "https://www.google.com/maps/place/Riung+Gunung+Puncak/@-6.7023,106.9807,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Riung+Gunung+Puncak/@-6.702255699999999,106.98073649999999,17z",
     "category": [
       "Nature"
     ],
@@ -1182,8 +1182,8 @@ export const destinations: Destination[] = [
     "reviewCount": 14160,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.7023,
-      "lng": 106.9807
+      "lat": -6.702255699999999,
+      "lng": 106.98073649999999
     },
     "openingHours": [
       "Senin",
@@ -1197,7 +1197,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Hamparan kebun teh Puncak yang dihiasi jembatan kayu layang untuk berfoto.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/riung-gunung-puncak.webp"
     ],
     "website": null,
     "phone": ""
@@ -1205,7 +1205,7 @@ export const destinations: Destination[] = [
   {
     "id": "gunung-salak-endah",
     "name": "Gunung Salak Endah",
-    "mapsUrl": "https://www.google.com/maps/place/Gunung+Salak+Endah/@-6.7213,106.7325,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Gunung+Salak+Endah/@-6.696428,106.6886897,17z",
     "category": [
       "Nature"
     ],
@@ -1220,8 +1220,8 @@ export const destinations: Destination[] = [
     "reviewCount": 14592,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.7213,
-      "lng": 106.7325
+      "lat": -6.696428,
+      "lng": 106.6886897
     },
     "openingHours": [
       "Senin",
@@ -1235,7 +1235,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Kompleks wisata alam pegunungan dengan jejeran curug, pinus, dan air panas belerang.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/gunung-salak-endah.webp"
     ],
     "website": null,
     "phone": ""
@@ -1243,7 +1243,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-cigamea",
     "name": "Curug Cigamea",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Cigamea/@-6.719,106.7418,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Cigamea/@-6.6946825,106.68636359999999,17z",
     "category": [
       "Nature"
     ],
@@ -1258,8 +1258,8 @@ export const destinations: Destination[] = [
     "reviewCount": 15024,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.719,
-      "lng": 106.7418
+      "lat": -6.6946825,
+      "lng": 106.68636359999999
     },
     "openingHours": [
       "Senin",
@@ -1273,31 +1273,32 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Salah satu curug terindah di lereng Salak dengan aliran air bergemuruh deras.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-cigamea.webp"
     ],
     "website": null,
     "phone": ""
   },
   {
-    "id": "museum-pembela-tanah-air",
-    "name": "Museum Pembela Tanah Air",
-    "mapsUrl": "https://www.google.com/maps/place/Museum+Pembela+Tanah+Air/@-6.5855,106.7965,17z",
+    "id": "halimun-salak",
+    "name": "Taman Nasional Gunung Halimun Salak",
+    "mapsUrl": "https://www.google.com/maps/place/Taman+Nasional+Gunung+Halimun+Salak/@-6.7015891,106.4641459,17z",
     "category": [
-      "Museum",
-      "Education"
+      "Nature"
     ],
     "price": 15000,
     "tags": [
-      "edukasi",
+      "alam",
+      "gunung",
+      "hutan",
       "bogor",
-      "sejarah"
+      "petualangan"
     ],
-    "rating": 8.7,
-    "reviewCount": 15456,
-    "address": "Bogor, Jawa Barat, Indonesia",
+    "rating": 8.6,
+    "reviewCount": 1720,
+    "address": "Malasari, Kabandungan, Sukabumi, Jawa Barat",
     "location": {
-      "lat": -6.5855,
-      "lng": 106.7965
+      "lat": -6.7015891,
+      "lng": 106.46414589999999
     },
     "openingHours": [
       "Senin",
@@ -1309,17 +1310,17 @@ export const destinations: Destination[] = [
       "Minggu"
     ],
     "openStatus": "open",
-    "description": "Museum militer bersejarah yang memperingati kontribusi perwira bentukan Jepang.",
+    "description": "Kawasan konservasi hutan hujan pegunungan tropis terluas di Jawa Barat dengan air terjun alami dan keanekaragaman hayati yang kaya.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/halimun-salak.webp"
     ],
-    "website": null,
-    "phone": ""
+    "website": "http://halimunsalak.org/",
+    "phone": "(0266) 621256"
   },
   {
     "id": "highland-park-resort",
     "name": "Highland Park Resort",
-    "mapsUrl": "https://www.google.com/maps/place/Highland+Park+Resort/@-6.758,106.968,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Highland+Park+Resort/@-6.6569074,106.7291619,17z",
     "category": [
       "Nature"
     ],
@@ -1334,8 +1335,8 @@ export const destinations: Destination[] = [
     "reviewCount": 15888,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.758,
-      "lng": 106.968
+      "lat": -6.6569074,
+      "lng": 106.7291619
     },
     "openingHours": [
       "Senin",
@@ -1349,7 +1350,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Resort glamping unik bertema tenda indian Apache di lereng Gunung Salak.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/highland-park-resort.webp"
     ],
     "website": null,
     "phone": ""
@@ -1357,7 +1358,7 @@ export const destinations: Destination[] = [
   {
     "id": "gua-gudawang-cigudeg",
     "name": "Gua Gudawang Cigudeg",
-    "mapsUrl": "https://www.google.com/maps/place/Gua+Gudawang+Cigudeg/@-6.561,106.584,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Gua+Gudawang+Cigudeg/@-6.4585194,106.5121188,17z",
     "category": [
       "Nature"
     ],
@@ -1372,8 +1373,8 @@ export const destinations: Destination[] = [
     "reviewCount": 16320,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.561,
-      "lng": 106.584
+      "lat": -6.4585194,
+      "lng": 106.5121188
     },
     "openingHours": [
       "Senin",
@@ -1387,7 +1388,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Gua kapur alam purba dengan stalaktit dan stalagmit aktif di daerah Cigudeg.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/gua-gudawang-cigudeg.webp"
     ],
     "website": null,
     "phone": ""
@@ -1395,7 +1396,7 @@ export const destinations: Destination[] = [
   {
     "id": "situ-gunung-jembatan-gantung",
     "name": "Situ Gunung Jembatan Gantung",
-    "mapsUrl": "https://www.google.com/maps/place/Situ+Gunung+Jembatan+Gantung/@-6.8363,106.9273,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Situ+Gunung+Jembatan+Gantung/@-6.8369535,106.92709529999999,17z",
     "category": [
       "Nature"
     ],
@@ -1406,12 +1407,12 @@ export const destinations: Destination[] = [
       "sejuk",
       "bogor"
     ],
-    "rating": 9.0,
+    "rating": 9,
     "reviewCount": 16752,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.8363,
-      "lng": 106.9273
+      "lat": -6.8369535,
+      "lng": 106.92709529999999
     },
     "openingHours": [
       "Senin",
@@ -1425,7 +1426,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Kawasan danau sejuk dengan jembatan gantung panjang di atas tajuk hutan hujan.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/situ-gunung-jembatan-gantung.webp"
     ],
     "website": null,
     "phone": ""
@@ -1433,7 +1434,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-hordeng-sentul",
     "name": "Curug Hordeng Sentul",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Hordeng+Sentul/@-6.6214,106.8988,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Hordeng+Sentul/@-6.606617,106.96407549999999,17z",
     "category": [
       "Nature"
     ],
@@ -1448,8 +1449,8 @@ export const destinations: Destination[] = [
     "reviewCount": 17184,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6214,
-      "lng": 106.8988
+      "lat": -6.606617,
+      "lng": 106.96407549999999
     },
     "openingHours": [
       "Senin",
@@ -1463,7 +1464,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Air terjun lebar yang mengalir tipis menyerupai gorden (hordeng) dengan air kolam yang dangkal dan jernih.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-hordeng-sentul.webp"
     ],
     "website": null,
     "phone": ""
@@ -1471,7 +1472,7 @@ export const destinations: Destination[] = [
   {
     "id": "kampoeng-wisata-cinangneng",
     "name": "Kampoeng Wisata Cinangneng",
-    "mapsUrl": "https://www.google.com/maps/place/Kampoeng+Wisata+Cinangneng/@-6.5281,106.7293,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Kampoeng+Wisata+Cinangneng/@-6.5659313,106.7114553,17z",
     "category": [
       "Family",
       "Education"
@@ -1486,8 +1487,8 @@ export const destinations: Destination[] = [
     "reviewCount": 17616,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.5281,
-      "lng": 106.7293
+      "lat": -6.5659313,
+      "lng": 106.7114553
     },
     "openingHours": [
       "Senin",
@@ -1501,7 +1502,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Kampung wisata yang mengenalkan kearifan lokal pedesaan Sunda dan kerajinan tangan.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/kampoeng-wisata-cinangneng.webp"
     ],
     "website": null,
     "phone": ""
@@ -1509,7 +1510,7 @@ export const destinations: Destination[] = [
   {
     "id": "museum-tanah-dan-pertanian",
     "name": "Museum Tanah dan Pertanian",
-    "mapsUrl": "https://www.google.com/maps/place/Museum+Tanah+dan+Pertanian/@-6.6039,106.798,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Museum+Tanah+dan+Pertanian/@-6.6037032,106.7978677,17z",
     "category": [
       "Museum",
       "Education"
@@ -1524,8 +1525,8 @@ export const destinations: Destination[] = [
     "reviewCount": 18048,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6039,
-      "lng": 106.798
+      "lat": -6.6037032,
+      "lng": 106.7978677
     },
     "openingHours": [
       "Senin",
@@ -1539,7 +1540,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Museum modern yang menampilkan jenis tanah nusantara dan komoditas tani sejarah.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/museum-tanah-dan-pertanian.webp"
     ],
     "website": null,
     "phone": ""
@@ -1547,7 +1548,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-cikuluwung",
     "name": "Curug Cikuluwung",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Cikuluwung/@-6.6192,106.6713,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Cikuluwung/@-6.6423046999999995,106.6432085,17z",
     "category": [
       "Nature"
     ],
@@ -1562,8 +1563,8 @@ export const destinations: Destination[] = [
     "reviewCount": 18480,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6192,
-      "lng": 106.6713
+      "lat": -6.6423046999999995,
+      "lng": 106.6432085
     },
     "openingHours": [
       "Senin",
@@ -1577,7 +1578,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Air terjun tersembunyi dengan kolam air jernih kehijauan yang diapit oleh dinding tebing batu purba eksotis di Pamijahan.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-cikuluwung.webp"
     ],
     "website": null,
     "phone": ""
@@ -1585,7 +1586,7 @@ export const destinations: Destination[] = [
   {
     "id": "lawang-suryakencana-pecinan",
     "name": "Lawang Suryakencana Pecinan",
-    "mapsUrl": "https://www.google.com/maps/place/Lawang+Suryakencana+Pecinan/@-6.6033,106.7989,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Lawang+Suryakencana+Pecinan/@-6.6032728999999994,106.79890979999999,17z",
     "category": [
       "Nature"
     ],
@@ -1600,8 +1601,8 @@ export const destinations: Destination[] = [
     "reviewCount": 18912,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6033,
-      "lng": 106.7989
+      "lat": -6.6032728999999994,
+      "lng": 106.79890979999999
     },
     "openingHours": [
       "Senin",
@@ -1615,7 +1616,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Gerbang merah pecinan legendaris di Suryakencana yang kaya akan kuliner khas.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/lawang-suryakencana-pecinan.webp"
     ],
     "website": null,
     "phone": ""
@@ -1623,7 +1624,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-pangeran",
     "name": "Curug Pangeran",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Pangeran/@-6.7112,106.7214,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Pangeran/@-6.699164499999999,106.6929605,17z",
     "category": [
       "Nature"
     ],
@@ -1638,8 +1639,8 @@ export const destinations: Destination[] = [
     "reviewCount": 19344,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.7112,
-      "lng": 106.7214
+      "lat": -6.699164499999999,
+      "lng": 106.6929605
     },
     "openingHours": [
       "Senin",
@@ -1653,7 +1654,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Air terjun berukuran kecil namun memiliki kolam alami berwarna biru kristal sangat jernih di bawah naungan pohon pinus sejuk.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-pangeran.webp"
     ],
     "website": null,
     "phone": ""
@@ -1661,7 +1662,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-cibeet-sukamakmur",
     "name": "Curug Cibeet Sukamakmur",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Cibeet+Sukamakmur/@-6.664,107.0076,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Cibeet+Sukamakmur/@-6.6732559,106.9936848,17z",
     "category": [
       "Nature"
     ],
@@ -1676,8 +1677,8 @@ export const destinations: Destination[] = [
     "reviewCount": 19776,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.664,
-      "lng": 107.0076
+      "lat": -6.6732559,
+      "lng": 106.9936848
     },
     "openingHours": [
       "Senin",
@@ -1691,7 +1692,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Curug tenang tersembunyi dengan aliran air jernih segar di jalur Puncak Dua.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-cibeet-sukamakmur.webp"
     ],
     "website": null,
     "phone": ""
@@ -1699,7 +1700,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-cipputri-tenjolaya",
     "name": "Curug Cipputri Tenjolaya",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Cipputri+Tenjolaya/@-6.6905,106.7011,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Cipputri+Tenjolaya/@-6.6762809999999995,106.7063372,17z",
     "category": [
       "Nature"
     ],
@@ -1714,8 +1715,8 @@ export const destinations: Destination[] = [
     "reviewCount": 20208,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6905,
-      "lng": 106.7011
+      "lat": -6.6762809999999995,
+      "lng": 106.7063372
     },
     "openingHours": [
       "Senin",
@@ -1729,7 +1730,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Air terjun cantik di kaki Gunung Salak dengan bumi perkemahan pinus rindang.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-cipputri-tenjolaya.webp"
     ],
     "website": null,
     "phone": ""
@@ -1737,7 +1738,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-cibaliung",
     "name": "Curug Cibaliung",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Cibaliung/@-6.6277,106.9022,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Cibaliung/@-6.5995973,106.9585682,17z",
     "category": [
       "Nature"
     ],
@@ -1752,8 +1753,8 @@ export const destinations: Destination[] = [
     "reviewCount": 20640,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.6277,
-      "lng": 106.9022
+      "lat": -6.5995973,
+      "lng": 106.9585682
     },
     "openingHours": [
       "Senin",
@@ -1767,7 +1768,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Salah satu curug terdalam dan tercantik di Sentul dengan air berwarna biru toska jernih yang dikelilingi batuan sungai alami.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-cibaliung.webp"
     ],
     "website": null,
     "phone": ""
@@ -1775,7 +1776,7 @@ export const destinations: Destination[] = [
   {
     "id": "curug-barong-sentul",
     "name": "Curug Barong Sentul",
-    "mapsUrl": "https://www.google.com/maps/place/Curug+Barong+Sentul/@-6.626,106.891,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Curug+Barong+Sentul/@-6.5948775,106.95444839999999,17z",
     "category": [
       "Nature"
     ],
@@ -1790,8 +1791,8 @@ export const destinations: Destination[] = [
     "reviewCount": 21072,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.626,
-      "lng": 106.891
+      "lat": -6.5948775,
+      "lng": 106.95444839999999
     },
     "openingHours": [
       "Senin",
@@ -1805,7 +1806,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Trekking air terjun berbatu kapur dengan kolam toska jernih di atas Curug Leuwi Hejo.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/curug-barong-sentul.webp"
     ],
     "website": null,
     "phone": ""
@@ -1813,7 +1814,7 @@ export const destinations: Destination[] = [
   {
     "id": "kuntum-farmfield-tajur",
     "name": "Kuntum Farmfield Tajur",
-    "mapsUrl": "https://www.google.com/maps/place/Kuntum+Farmfield+Tajur/@-6.637,106.837,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Kuntum+Farmfield+Tajur/@-6.6416246999999995,106.83971799999999,17z",
     "category": [
       "Family",
       "Education"
@@ -1824,12 +1825,12 @@ export const destinations: Destination[] = [
       "bogor",
       "rekreasi"
     ],
-    "rating": 8.0,
+    "rating": 8,
     "reviewCount": 21504,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.637,
-      "lng": 106.837
+      "lat": -6.6416246999999995,
+      "lng": 106.83971799999999
     },
     "openingHours": [
       "Senin",
@@ -1843,31 +1844,32 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Wisata peternakan interaktif anak untuk memberi makan kelinci, kambing, dan menunggang kuda.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/kuntum-farmfield-tajur.webp"
     ],
     "website": null,
     "phone": ""
   },
   {
-    "id": "museum-peta-cibuluh",
-    "name": "Museum PETA Cibuluh",
-    "mapsUrl": "https://www.google.com/maps/place/Museum+PETA+Cibuluh/@-6.585,106.796,17z",
+    "id": "alun-alun-kota-bogor",
+    "name": "Alun-Alun Kota Bogor",
+    "mapsUrl": "https://www.google.com/maps/place/Alun-Alun+Kota+Bogor/@-6.5945848,106.7915011,17z",
     "category": [
-      "Museum",
-      "Education"
+      "Family",
+      "Nature"
     ],
-    "price": 15000,
+    "price": 0,
     "tags": [
-      "edukasi",
-      "bogor",
-      "sejarah"
+      "taman",
+      "rekreasi",
+      "keluarga",
+      "bogor"
     ],
-    "rating": 8.1,
-    "reviewCount": 21936,
-    "address": "Bogor, Jawa Barat, Indonesia",
+    "rating": 9.2,
+    "reviewCount": 5779,
+    "address": "Jl. Kapten Muslihat No.17 A, RT.04/RW.06, Pabaton, Bogor Tengah, Kota Bogor",
     "location": {
-      "lat": -6.585,
-      "lng": 106.796
+      "lat": -6.5945848,
+      "lng": 106.79150109999999
     },
     "openingHours": [
       "Senin",
@@ -1879,9 +1881,9 @@ export const destinations: Destination[] = [
       "Minggu"
     ],
     "openStatus": "open",
-    "description": "Gedung peninggalan KNIL yang menjadi saksi sejarah pelatihan perwira Pembela Tanah Air.",
+    "description": "Taman terbuka hijau ramah keluarga di jantung Kota Bogor yang menyatu dengan pintu keluar Stasiun Bogor.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/alun-alun-kota-bogor.webp"
     ],
     "website": null,
     "phone": ""
@@ -1889,7 +1891,7 @@ export const destinations: Destination[] = [
   {
     "id": "leuwi-lieuk-sentul",
     "name": "Leuwi Lieuk Sentul",
-    "mapsUrl": "https://www.google.com/maps/place/Leuwi+Lieuk+Sentul/@-6.623,106.894,17z",
+    "mapsUrl": "https://www.google.com/maps/place/Leuwi+Lieuk+Sentul/@-6.596616099999999,106.9566558,17z",
     "category": [
       "Nature"
     ],
@@ -1904,8 +1906,8 @@ export const destinations: Destination[] = [
     "reviewCount": 22368,
     "address": "Bogor, Jawa Barat, Indonesia",
     "location": {
-      "lat": -6.623,
-      "lng": 106.894
+      "lat": -6.596616099999999,
+      "lng": 106.9566558
     },
     "openingHours": [
       "Senin",
@@ -1919,7 +1921,7 @@ export const destinations: Destination[] = [
     "openStatus": "open",
     "description": "Ngarai sungai kapur sempit dengan kedalaman air toska sejuk, populer untuk cliff jumping.",
     "photos": [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+      "/images/destinations/leuwi-lieuk-sentul.webp"
     ],
     "website": null,
     "phone": ""

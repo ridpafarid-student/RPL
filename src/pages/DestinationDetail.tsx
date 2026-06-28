@@ -103,7 +103,7 @@ export default function DestinationDetail() {
         </motion.div>
         
         {/* Floating Back Button */}
-        <div className="absolute top-8 left-4 sm:left-8 z-10">
+        <div className="absolute top-24 left-4 sm:left-8 z-10">
           <Link to="/destinations" className="inline-flex h-10 items-center justify-center rounded-full bg-forest-950/50 backdrop-blur-md px-4 text-xs font-semibold text-forest-200 border border-forest-700/30 transition-[background-color,transform] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:bg-forest-800 hover:scale-105 hover:-translate-y-0.5 active:scale-95">
             ← Kembali
           </Link>

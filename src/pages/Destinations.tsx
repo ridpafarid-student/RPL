@@ -5,9 +5,7 @@ import SearchBar from '@/components/SearchBar';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import DestinationsMap from '@/components/DestinationsMap';
 import { categories, destinations } from '@/data/destinations';
-import { getPlaceSuggestions } from '@/services/geoapify';
 import { usePageMeta } from '@/lib/use-page-meta';
-import type { PlaceSuggestion } from '@/types';
 
 const INITIAL_COUNT = 8;
 
@@ -24,7 +22,6 @@ export default function Destinations() {
 
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('All');
-  const [suggestions, setSuggestions] = useState<PlaceSuggestion[]>([]);
   const [sortBy, setSortBy] = useState('default');
   const [showAll, setShowAll] = useState(false);
   const [hoveredId, setHoveredId] = useState<string | null>(null);
@@ -49,14 +46,7 @@ export default function Destinations() {
     };
   }, []);
 
-  useEffect(() => {
-    const trimmed = query.trim();
-    if (trimmed.length < 3) { setSuggestions([]); return; }
-    const id = window.setTimeout(async () => {
-      setSuggestions(await getPlaceSuggestions(trimmed));
-    }, 350);
-    return () => window.clearTimeout(id);
-  }, [query]);
+
 
   useEffect(() => { setShowAll(false); }, [category, query, sortBy]);
 
@@ -101,8 +91,6 @@ export default function Destinations() {
           <SearchBar
             query={query}
             onQueryChange={setQuery}
-            suggestions={suggestions}
-            onSuggestionClick={(v) => { setQuery(v); setSuggestions([]); }}
           />
           <FilterBar categories={categories} category={category} onCategoryChange={setCategory} />
         </div>
